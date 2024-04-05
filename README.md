@@ -1,6 +1,6 @@
 # Practice
 Устанавливаем Intellij
- ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/Practice/images/Рисунок1.png)
+ ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок1.png)
 ![Intellij](https://github.com/Pomelogranate/Practice/raw/{branch}/{path}/image.png)
 ![Intellij](https://github.com/Pomelogranate/Practice/raw/{branch}/{path}/image.png)
 ![Intellij](https://github.com/Pomelogranate/Practice/raw/{branch}/{path}/image.png)
