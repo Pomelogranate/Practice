@@ -10,7 +10,8 @@
 Над классом указываем аннотацию @RestController<br>
 Создаём 2 public метода с аннотациями @GetMapping("/plus/{a}/{b}") и @GetMapping("/minus/{a}/{b}"), которые принимают 2 аргумента, типа Integer, а возвращают их сумму/разность соответственно. Перед каждым аргументом метода необходимо поставить @PathVariable("<a или b соответственно для каждого аргумента>")
 <br><br>
-`package ru.neoflex.practice.Controller;
+ ```
+package ru.neoflex.practice.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -27,7 +28,8 @@ public class CalcController {
     public Integer Min(@PathVariable("a") Integer a, @PathVariable("b") Integer b){
         return a-b;
     }
-}`
+}
+```
 <br><br>
 Запускаем сервис, по зеленой кнопке сверху справа в окне Intellij IDEA <br>
 Тестируем своё приложение по адресу http://localhost:8080/<адрес_и_параметры_для_2х_созданных_АПИ> <br>
