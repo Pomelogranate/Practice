@@ -1,5 +1,5 @@
 # Practice
-Устанавливаем Intellij
+Устанавливаем Intellij <br>
  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок1.png)
  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок2.png) 
  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок3.png) 
@@ -9,7 +9,8 @@
 В папке src/main/java/ru/neoflex/practice создаём папку controller. В ней (/controller) создаём файл CalcController.java 
 Над классом указываем аннотацию @RestController
 Создаём 2 public метода с аннотациями @GetMapping("/plus/{a}/{b}") и @GetMapping("/minus/{a}/{b}"), которые принимают 2 аргумента, типа Integer, а возвращают их сумму/разность соответственно. Перед каждым аргументом метода необходимо поставить @PathVariable("<a или b соответственно для каждого аргумента>")
-package ru.neoflex.practice.Controller;
+
+`package ru.neoflex.practice.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,7 +27,7 @@ public class CalcController {
     public Integer Min(@PathVariable("a") Integer a, @PathVariable("b") Integer b){
         return a-b;
     }
-}
+}`
 
 Запускаем сервис, по зеленой кнопке сверху справа в окне Intellij IDEA
 Тестируем своё приложение по адресу http://localhost:8080/<адрес_и_параметры_для_2х_созданных_АПИ> 
