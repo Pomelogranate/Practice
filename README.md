@@ -3,13 +3,13 @@
  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок1.png)
  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок2.png) 
  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок3.png) 
- ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок4.png)
-Заходим на https://start.spring.io/
-  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок5.png)
-В папке src/main/java/ru/neoflex/practice создаём папку controller. В ней (/controller) создаём файл CalcController.java 
-Над классом указываем аннотацию @RestController
+ ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок4.png)<br>
+Заходим на https://start.spring.io/<br>
+  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок5.png)<br>
+В папке src/main/java/ru/neoflex/practice создаём папку controller. В ней (/controller) создаём файл CalcController.java <br>
+Над классом указываем аннотацию @RestController<br>
 Создаём 2 public метода с аннотациями @GetMapping("/plus/{a}/{b}") и @GetMapping("/minus/{a}/{b}"), которые принимают 2 аргумента, типа Integer, а возвращают их сумму/разность соответственно. Перед каждым аргументом метода необходимо поставить @PathVariable("<a или b соответственно для каждого аргумента>")
-
+<br><br>
 `package ru.neoflex.practice.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,11 +28,11 @@ public class CalcController {
         return a-b;
     }
 }`
-
-Запускаем сервис, по зеленой кнопке сверху справа в окне Intellij IDEA
-Тестируем своё приложение по адресу http://localhost:8080/<адрес_и_параметры_для_2х_созданных_АПИ> 
-Сложение
-  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок6.png)
-Вычитание
-  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок7.png)
-Подключить swagger 
+<br><br>
+Запускаем сервис, по зеленой кнопке сверху справа в окне Intellij IDEA <br>
+Тестируем своё приложение по адресу http://localhost:8080/<адрес_и_параметры_для_2х_созданных_АПИ> <br>
+Сложение<br>
+  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок6.png)<br>
+Вычитание<br>
+  ![Intellij](https://github.com/Pomelogranate/Practice/raw/main/images/Рисунок7.png)<br>
+Подключить swagger <br>
