@@ -295,8 +295,10 @@ public class CalcController {
 ```
 <br>
 Результат без записей<br>
+
 ![Result1](https://gitlab.com/Pomelogranate/Practice/raw/main/images/Рисунок15.png)<br>
 Результат с записями<br>
+
 ![Result2](https://gitlab.com/Pomelogranate/Practice/raw/main/images/Рисунок16.png)<br>
 <br> 
 
@@ -306,7 +308,9 @@ public class CalcController {
 
 <br>
 Переходим по ссылке http://localhost:8080/h2-console и вводим данные из application.properties<br>
+
 ![Registration](https://gitlab.com/Pomelogranate/Practice/raw/main/images/Рисунок17.png)<br>
 Выполняем Get-запрос<br>
+
 ![Get](https://gitlab.com/Pomelogranate/Practice/raw/main/images/Рисунок18.png)<br>
 <br>
